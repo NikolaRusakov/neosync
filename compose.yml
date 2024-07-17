@@ -11,7 +11,7 @@ services:
     container_name: neosync-app
     image: ghcr.io/nucleuscloud/neosync/app:latest
     ports:
-      - 3000:3000
+      - 3011:3000
     environment:
       - HOSTNAME=0.0.0.0
       - NUCLEUS_ENV=dev
